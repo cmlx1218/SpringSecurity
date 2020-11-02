@@ -1,0 +1,17 @@
+server:
+  port: 9001
+
+
+# 配置文件实现修改用户和密码
+#spring:
+#  security:
+#    user:
+#      name: cmlx
+#      password: cmlx
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.96.178.201:3306/practice_springboot?serverTimezone=GMT%2B8
+    username: root
+    password: 123456
