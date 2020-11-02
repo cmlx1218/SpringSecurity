@@ -28,6 +28,7 @@ public class MyUserDetailsService implements UserDetailsService {
 
     /**
      * 用户名/密码认证用到过滤器：UsernamePasswordAuthenticationFilter
+     *
      * @param username
      * @return
      * @throws UsernameNotFoundException
